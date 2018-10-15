@@ -1,5 +1,6 @@
 package mjr.abgasapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +20,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         _startbutton = findViewById(R.id.main_startbutton);
         _helpbutton = findViewById(R.id.main_helpbutton);
 
+        _startbutton.setOnClickListener(this);
+        _helpbutton.setOnClickListener(this);
+
     }
 
     @Override
@@ -26,6 +30,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(v == _startbutton){
 
+            Intent rechner = new Intent(this, Rechner.class);
+            startActivity(rechner);
+        }
+        else if (v == _helpbutton){
+
+            Intent help = new Intent(this, Hilfe.class);
+            startActivity(help);
         }
     }
 }
