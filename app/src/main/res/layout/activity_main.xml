@@ -18,17 +18,17 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/main_startbutton"
         android:layout_width="wrap_content"
-        android:layout_gravity="center"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/button_start" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_gravity="center"
+        android:id="@+id/main_helpbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/button_help" />
 
 
