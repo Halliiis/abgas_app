@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
         if(v == _startbutton){
-            Intent calc = new Intent(this, Calculator.class);
+
         }
     }
 }

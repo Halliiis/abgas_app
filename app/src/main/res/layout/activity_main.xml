@@ -24,8 +24,6 @@
         android:layout_gravity="center"
         android:text="@string/button_start" />
 
-<<<<<<< HEAD
-=======
     <Button
         android:id="@+id/main_helpbutton"
         android:layout_width="wrap_content"
@@ -33,6 +31,4 @@
         android:layout_gravity="center"
         android:text="@string/button_help" />
 
-
->>>>>>> 29c47d6270ff228d2c7c1dbaa48a851fefdbb90b
 </LinearLayout>
