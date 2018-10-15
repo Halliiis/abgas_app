@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AbgasApp</string>
+    <string name="app_name">Die Abgas-App</string>
 
     <string name="label_mainactivity">Berechne Abgaswerte verschiedener Motoren</string>
     <string name="button_help">Hilfe</string>
