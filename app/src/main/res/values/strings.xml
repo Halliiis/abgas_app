@@ -1,7 +1,15 @@
 <resources>
-    <string name="app_name">AbgasApp</string>
+    <string name="app_name">Die Abgas-App</string>
 
     <string name="label_mainactivity">Berechne Abgaswerte verschiedener Motoren</string>
     <string name="button_help">Hilfe</string>
     <string name="button_start">Start</string>
+
+    <string name="rechner_diesel">Diesel</string>
+    <string name="rechner_benzin">Benzin</string>
+    <string name="verbrauch">Wie hoch ist der Verbrauch auf 100 km?</string>
+    <string name="berechne">Berechne</string>
+
+
+    <string name="Motortyp">Um welchen Motortyp handelt es sich bei Ihrem Auto?</string>
 </resources>

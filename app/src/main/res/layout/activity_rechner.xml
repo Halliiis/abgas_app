@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Rechner">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Motortyp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioBenzin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/rechner_benzin" />
+
+        <RadioButton
+            android:id="@+id/radioDiesel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rechner_diesel" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/verbrauch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/verbrauch"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/berechnebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/berechne" />
+</LinearLayout>
