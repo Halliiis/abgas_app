@@ -11,12 +11,25 @@
         android:id="@+id/main_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="200dp"
         android:gravity="center"
         android:text="@string/label_mainactivity"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/button_start" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_help" />
 
 
 </LinearLayout>
